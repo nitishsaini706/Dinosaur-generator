@@ -1,0 +1,49 @@
+html{
+    font-size: 100% ;
+    box-sizing :border-box;
+}
+
+*,*::before,*::afer {
+    box-sizing: inherit;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    background: center / auto url('forest.jpg');
+   
+}
+
+h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: 5rem;
+    line-height : 1;
+}
+.generator{
+ color :white;
+ 
+ text-align: center;
+}
+
+button{
+    font-weight: bold;
+    border:none;
+    background: rgb(4, 153, 61);
+    padding: 1rem 2rem;
+    color :white;
+    border-radius: 0.5rem;
+    transition: background-color 250ms ease-in-out;
+    cursor :pointer;
+    margin-bottom: 2rem;
+}
+
+button:hover{
+    background: rgb(7, 94, 7) ;
+}
+
+#dinoImage{
+    max-width : 100%;
+    border-radius: 1rem;
+}
